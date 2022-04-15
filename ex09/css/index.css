@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding: 10px 20px;
+}
+
+h1 {
+    width: 100%;
+}
+
+header {
+    height: 7%;
+    background-color: darkgray;
+}
+
+.highlite {
+    color: orange;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    text-align: right;
+    left: 80%;
+    position: absolute;
+    z-index: 2;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: orange;
+}
+
+#showcase {
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    float: center;
+    height: 30%;
+    background-image: url("../img/gigi-logo.png");
+    filter: grayscale(150%);
+    width: 100%;
+    color: white;
+    font-size: 30px;
+}
+
+form {
+    padding: 20px;
+}
+
+#boxses {
+    padding-top: 10px;
+    margin: 1px;
+    height: 30%;
+    background-color: white;
+    text-align: center;
+}
+
+footer {
+    margin: 1px;
+    color: white;
+    text-align: center;
+    background-color: orange;
+    padding: 0.5%;
+}
+
+#newsletter {
+    height: 7%;
+    color: white;
+    display: flex;
+    background-color: darkgray
+}
+
+img {
+    width: 160px;
+    height: 160px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.button-1 {
+    left: 90%;
+    position: absolute;
+    z-index: 2;
+    background: orange;
+}
+
+input {
+    position: absolute;
+    z-index: 2;
+    left: 80%;
+}
